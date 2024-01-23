@@ -42,7 +42,7 @@ header .site-logo {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 3.5em;
+  font-size: 1em;
 }
 
 header a {
@@ -50,7 +50,7 @@ header a {
   color: #4d4d4d;
   font-weight: 600;
   padding: 5px 20px;
-  font-size: 2em;
+  font-size: 0.75em;
 }
 
 header a:hover {
@@ -136,15 +136,15 @@ footer {
 
 .home-container h1 {
   font-weight: 700;
-  font-size: 5.75rem;
+  font-size: 2.35rem;
   line-height: 1.25em;
   text-align: center;
 }
 
 .home-container p {
-  font-size: 3em;
+  font-size: 1.15em;
   text-align: center;
-  line-height: 1.75em;
+  line-height: 1.55em;
 }
 
 .home-container a {
@@ -153,15 +153,15 @@ footer {
   text-decoration: none;
   background-color: #ff8c38;
   border: none;
-  width: 95%;
+  width: 65%;
   margin-top: 27px;
-  padding-block: 2.25rem;
+  padding-block: 0.75rem;
   color: white;
   font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.1s ease-in-out;
-  font-size: 3em;
+  font-size: 1.4em;
 }
 
 .home-container a:hover {
@@ -753,12 +753,11 @@ img.graph {
 }
 
 .home-page-text {
-  font-size: 3.55em;
+  font-size: 1.75em;
   font-weight: 700;
-  line-height: 1.35em;
+  line-height: 1.25em;
   text-align: center;
   margin: 2.75rem;
-  text-wrap: pretty;
 }
 
 .book-icon {
@@ -791,7 +790,7 @@ li {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .home-container a {
     width: 22%;
     padding-block: 1.25rem;
