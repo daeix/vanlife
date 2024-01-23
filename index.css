@@ -42,14 +42,15 @@ header .site-logo {
   margin-right: auto;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 1em;
+  font-size: 1.25em;
+  margin-left: 15px;
 }
 
 header a {
   text-decoration: none;
   color: #4d4d4d;
   font-weight: 600;
-  /* padding: 5px 20px; */
+  padding: 5px 0px;
   font-size: 0.75em;
 }
 
@@ -764,8 +765,8 @@ img.graph {
 .book-icon {
   font-size: 9em;
   color: #ff8c38;
-  padding-left: 10px;
-  max-width: 50px;
+  min-width: 30px;
+  max-width: 30px;
 }
 
 li {
@@ -778,6 +779,7 @@ li {
   font-size: 1.1em;
   margin-top: 0.65em;
   line-height: 1.5;
+  padding-right: 15px;
 }
 
 .flex-description {
@@ -786,9 +788,10 @@ li {
 }
 
 .title-description {
-  font-size: 1.75em;
+  font-size: 1.25em;
   margin-top: 1.25em;
   margin-bottom: 0;
+  padding-right: 15px;
 }
 
 @media (min-width: 600px) {
