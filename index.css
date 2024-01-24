@@ -812,6 +812,7 @@ li {
 
 .menu-link {
   color: black;
+  font-size: 0.75em;
 }
 
 .close-menu {
@@ -828,7 +829,7 @@ li {
 }
 
 .menu-text {
-  font-size: 0.85em;
+  font-size: 0.95em;
 }
 
 @media (min-width: 600px) {
