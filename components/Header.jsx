@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import imageUrl from "/assets/images/avatar-icon.png"
+import Menu from "../pages/Menu"
 
 export default function Header() {
   const activeStyles = {
@@ -18,7 +19,7 @@ export default function Header() {
       <Link className="site-logo" to="/">
         #VanLife
       </Link>
-      <nav>
+      {/* <nav>
         <NavLink
           to="/host"
           style={({ isActive }) => (isActive ? activeStyles : null)}
@@ -43,7 +44,10 @@ export default function Header() {
         <button className="logout" onClick={fakeLogOut}>
           X
         </button>
-      </nav>
+        
+        
+      </nav> */}
+      <Menu />
     </header>
   )
 }

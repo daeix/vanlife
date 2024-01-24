@@ -776,7 +776,7 @@ li {
 }
 
 .booking {
-  font-size: 1.1em;
+  font-size: 0.9em;
   margin-top: 0.65em;
   line-height: 1.5;
   padding-right: 15px;
@@ -788,10 +788,40 @@ li {
 }
 
 .title-description {
-  font-size: 1.25em;
+  font-size: 1.15em;
   margin-top: 1.25em;
   margin-bottom: 0;
   padding-right: 15px;
+}
+
+.menu {
+  font-size: 1.25em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  padding: 0em 0.5em;
+}
+
+.menu-link {
+  color: black;
+}
+
+.close-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+.menu-icon {
+  font-size: 2.25em;
+  cursor: pointer;
+  margin-right: 0.75em;
 }
 
 @media (min-width: 600px) {
@@ -839,5 +869,11 @@ li {
   .book-icon {
     font-size: 100px;
     max-width: 50px;
+  }
+
+  .menu {
+    font-size: 2.25em;
+    cursor: pointer;
+    margin-right: 0.25em;
   }
 }
