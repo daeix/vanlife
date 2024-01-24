@@ -801,7 +801,7 @@ li {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color: #fff7ed;
   position: absolute;
   top: 0;
   right: 0;
