@@ -128,14 +128,13 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* min-height: 350px; */
   color: white;
   padding: 45px 23px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .home-container h1 {
@@ -841,6 +840,7 @@ li {
   border: 1px solid #000000;
   height: 1px;
   opacity: 0.1;
+  margin-bottom: 0.5em;
 }
 
 @media (min-width: 600px) {
