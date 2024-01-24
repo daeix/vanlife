@@ -830,10 +830,17 @@ li {
 
 .menu-text {
   font-size: 0.95em;
+  font-weight: 900;
 }
 
 .closure-square {
   font-size: 1.45em;
+}
+
+.menu-divider {
+  border: 1px solid #000000;
+  height: 1px;
+  opacity: 0.1;
 }
 
 @media (min-width: 600px) {

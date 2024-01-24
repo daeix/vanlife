@@ -21,8 +21,10 @@ export default function Menu() {
       <div className="menu">
         <div className="close-menu">
           <h4 className="menu-text">Menu</h4>
+
           <AiOutlineCloseSquare className="closure-square" onClick={openMenu} />
         </div>
+        <div className="menu-divider"></div>
 
         <NavLink
           className="menu-link"
@@ -31,6 +33,7 @@ export default function Menu() {
         >
           Host
         </NavLink>
+        <div className="menu-divider"></div>
         <NavLink
           className="menu-link"
           to="/about"
@@ -38,6 +41,8 @@ export default function Menu() {
         >
           About
         </NavLink>
+        <div className="menu-divider"></div>
+
         <NavLink
           className="menu-link"
           to="/vans"
@@ -45,6 +50,8 @@ export default function Menu() {
         >
           Vans
         </NavLink>
+        <div className="menu-divider"></div>
+
         <NavLink
           className="menu-link"
           to="/login"
@@ -52,6 +59,7 @@ export default function Menu() {
         >
           Sign in
         </NavLink>
+        <div className="menu-divider"></div>
       </div>
     )
   } else {
