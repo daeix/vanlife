@@ -1,7 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { AiOutlineCloseSquare } from "react-icons/ai"
-
 import { BsJustify } from "react-icons/bs"
 
 export default function Menu() {
@@ -21,7 +20,7 @@ export default function Menu() {
     return (
       <div className="menu">
         <div className="close-menu">
-          <h4>Menu</h4>
+          <h4 className="menu-text">Menu</h4>
           <AiOutlineCloseSquare onClick={openMenu} />
         </div>
 

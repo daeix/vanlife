@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff7ed;
-  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -38,12 +38,13 @@ header {
 }
 
 header .site-logo {
-  color: black;
+  color: rgb(0, 0, 0);
   margin-right: auto;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.25em;
   margin-left: 15px;
+  font-family: "Changa", sans-serif;
 }
 
 header a {
@@ -51,7 +52,8 @@ header a {
   color: #4d4d4d;
   font-weight: 600;
   padding: 5px 0px;
-  font-size: 0.75em;
+  font-size: 0.55em;
+  font-family: "Roboto", sans-serif;
 }
 
 header a:hover {
@@ -804,7 +806,8 @@ li {
   top: 0;
   right: 0;
   height: 100vh;
-  padding: 0em 0.5em;
+  padding: 0em 0.8em;
+  margin-top: 0.4em;
 }
 
 .menu-link {
@@ -819,9 +822,13 @@ li {
 }
 
 .menu-icon {
-  font-size: 2.25em;
+  font-size: 1.75em;
   cursor: pointer;
-  margin-right: 0.75em;
+  margin-right: 0.5em;
+}
+
+.menu-text {
+  font-size: 0.85em;
 }
 
 @media (min-width: 600px) {
