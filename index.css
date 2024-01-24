@@ -819,7 +819,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 150px;
+  width: 130px;
 }
 
 .menu-icon {
@@ -830,6 +830,10 @@ li {
 
 .menu-text {
   font-size: 0.95em;
+}
+
+.closure-square {
+  font-size: 1.45em;
 }
 
 @media (min-width: 600px) {

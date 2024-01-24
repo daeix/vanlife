@@ -21,7 +21,7 @@ export default function Menu() {
       <div className="menu">
         <div className="close-menu">
           <h4 className="menu-text">Menu</h4>
-          <AiOutlineCloseSquare onClick={openMenu} />
+          <AiOutlineCloseSquare className="closure-square" onClick={openMenu} />
         </div>
 
         <NavLink
