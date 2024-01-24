@@ -1,7 +1,7 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { AiOutlineCloseSquare } from "react-icons/ai"
-import { BsJustify } from "react-icons/bs"
+import { BsJustify, BsBoxArrowInRight } from "react-icons/bs"
 
 export default function Menu() {
   const [isHidden, setIsHidden] = React.useState(true)
@@ -51,14 +51,17 @@ export default function Menu() {
           Vans
         </NavLink>
         <div className="menu-divider"></div>
+        <div className="sign-in">
+          <NavLink
+            className="menu-link"
+            to="/login"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            Sign in
+          </NavLink>
+          <BsBoxArrowInRight className="sign-arrow" />
+        </div>
 
-        <NavLink
-          className="menu-link"
-          to="/login"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
-        >
-          Sign in
-        </NavLink>
         <div className="menu-divider"></div>
       </div>
     )

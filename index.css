@@ -845,6 +845,16 @@ li {
   margin-bottom: 0.5em;
 }
 
+.sign-in {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.sign-arrow {
+  margin-left: 0.35em;
+}
+
 @media (min-width: 600px) {
   .home-container a {
     width: 25%;
