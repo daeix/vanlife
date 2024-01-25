@@ -3,9 +3,8 @@ import { Link } from "react-router-dom"
 
 import {
   BsTruck,
-  BsArrowRightSquare,
   BsCashCoin,
-  BsQuestion,
+  BsQuestionSquare,
   BsThreeDots,
 } from "react-icons/bs"
 
@@ -40,7 +39,7 @@ export default function Home() {
           </div>
         </li>
         <li>
-          <BsQuestion className="book-icon" />
+          <BsQuestionSquare className="book-icon" />
           <div className="flex-description">
             <h2 className="title-description">
               Questions? We’re here to help!
