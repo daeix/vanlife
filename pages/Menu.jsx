@@ -1,12 +1,7 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { AiOutlineCloseSquare } from "react-icons/ai"
-import {
-  BsJustify,
-  BsBoxArrowInRight,
-  BsCaretRight,
-  BsList,
-} from "react-icons/bs"
+import { BsBoxArrowInRight, BsCaretRight, BsList } from "react-icons/bs"
 
 export default function Menu() {
   const [isHidden, setIsHidden] = React.useState(true)

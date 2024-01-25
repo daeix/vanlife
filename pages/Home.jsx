@@ -2,10 +2,11 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 import {
-  BsQuestionSquare,
   BsTruck,
   BsArrowRightSquare,
   BsCashCoin,
+  BsQuestion,
+  BsThreeDots,
 } from "react-icons/bs"
 
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
           </div>
         </li>
         <li>
-          <BsQuestionSquare className="book-icon" />
+          <BsQuestion className="book-icon" />
           <div className="flex-description">
             <h2 className="title-description">
               Questions? We’re here to help!
@@ -61,7 +62,7 @@ export default function Home() {
           </div>
         </li>
         <li>
-          <BsArrowRightSquare className="book-icon" />
+          <BsThreeDots className="book-icon" />
           <div className="flex-description">
             <h2 className="title-description">
               More than a campervan rental website
