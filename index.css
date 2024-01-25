@@ -847,7 +847,7 @@ li {
 
 .sign-in {
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   align-items: center;
 }
 

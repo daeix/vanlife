@@ -1,7 +1,7 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { AiOutlineCloseSquare } from "react-icons/ai"
-import { BsJustify, BsBoxArrowInRight } from "react-icons/bs"
+import { BsJustify, BsBoxArrowInRight, BsCaretRight } from "react-icons/bs"
 
 export default function Menu() {
   const [isHidden, setIsHidden] = React.useState(true)
@@ -25,31 +25,41 @@ export default function Menu() {
           <AiOutlineCloseSquare className="closure-square" onClick={openMenu} />
         </div>
         <div className="menu-divider"></div>
+        <div className="sign-in">
+          <NavLink
+            className="menu-link"
+            to="/host"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            Host
+          </NavLink>
+          <BsCaretRight />
+        </div>
 
-        <NavLink
-          className="menu-link"
-          to="/host"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
-        >
-          Host
-        </NavLink>
         <div className="menu-divider"></div>
-        <NavLink
-          className="menu-link"
-          to="/about"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
-        >
-          About
-        </NavLink>
-        <div className="menu-divider"></div>
+        <div className="sign-in">
+          <NavLink
+            className="menu-link"
+            to="/about"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            About
+          </NavLink>
+          <BsCaretRight />
+        </div>
 
-        <NavLink
-          className="menu-link"
-          to="/vans"
-          style={({ isActive }) => (isActive ? activeStyles : null)}
-        >
-          Vans
-        </NavLink>
+        <div className="menu-divider"></div>
+        <div className="sign-in">
+          <NavLink
+            className="menu-link"
+            to="/vans"
+            style={({ isActive }) => (isActive ? activeStyles : null)}
+          >
+            Vans
+          </NavLink>
+          <BsCaretRight />
+        </div>
+
         <div className="menu-divider"></div>
         <div className="sign-in">
           <NavLink
