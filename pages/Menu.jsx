@@ -1,7 +1,12 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 import { AiOutlineCloseSquare } from "react-icons/ai"
-import { BsJustify, BsBoxArrowInRight, BsCaretRight } from "react-icons/bs"
+import {
+  BsJustify,
+  BsBoxArrowInRight,
+  BsCaretRight,
+  BsList,
+} from "react-icons/bs"
 
 export default function Menu() {
   const [isHidden, setIsHidden] = React.useState(true)
@@ -76,6 +81,6 @@ export default function Menu() {
       </div>
     )
   } else {
-    return <BsJustify onClick={openMenu} className="menu-icon" />
+    return <BsList onClick={openMenu} className="menu-icon" />
   }
 }

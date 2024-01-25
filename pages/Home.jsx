@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 import {
-  BsCalendarCheck,
   BsQuestionSquare,
   BsTruck,
   BsArrowRightSquare,
+  BsCashCoin,
 } from "react-icons/bs"
 
 export default function Home() {
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </li>
         <li>
-          <BsCalendarCheck className="book-icon" />
+          <BsCashCoin className="book-icon" />
           <div className="flex-description">
             <h2 className="title-description">Book now, pay later</h2>
             <p className="booking">
