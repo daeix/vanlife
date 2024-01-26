@@ -831,6 +831,9 @@ li {
   gap: 1.25em;
   margin-right: 1em;
   font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-icon {
@@ -866,8 +869,8 @@ li {
 }
 
 img.login-icon {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }
 @media (min-width: 900px) {
   .home-container {
