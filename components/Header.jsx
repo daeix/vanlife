@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import Menu from "../pages/Menu"
 import MenuDesktop from "../pages/MenuDesktop"
 
