@@ -811,6 +811,8 @@ li {
   height: 100vh;
   padding: 0em 0.8em;
   margin-top: 0.4em;
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s, 3s, 5s;
 }
 
 .menu-link {
@@ -818,12 +820,12 @@ li {
   font-size: 0.75em;
 }
 
-/* .close-menu {
+.close-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 130px;
-} */
+}
 
 .desktop-menu {
   gap: 1.25em;
@@ -915,6 +917,22 @@ img.login-icon {
     justify-content: center;
     align-items: center;
   }
+
+  .about-hero-image {
+    max-width: 52%;
+    align-self: flex-start;
+  }
+
+  .about-page-content {
+    align-self: flex-start;
+    max-width: 600px;
+  }
+
+  .about-page-cta {
+    align-self: flex-start;
+    width: 500px;
+  }
+
   .book-icon {
     font-size: 100px;
     max-width: 50px;

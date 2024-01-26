@@ -1,12 +1,9 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-import {
-  BsTruck,
-  BsCashCoin,
-  BsQuestionSquare,
-  BsThreeDots,
-} from "react-icons/bs"
+import { BsTruck, BsCashCoin, BsQuestionSquare } from "react-icons/bs"
+
+import { MdOutlineSend } from "react-icons/md"
 
 export default function Home() {
   return (
@@ -61,7 +58,7 @@ export default function Home() {
           </div>
         </li>
         <li>
-          <BsThreeDots className="book-icon" />
+          <MdOutlineSend className="book-icon" />
           <div className="flex-description">
             <h2 className="title-description">
               More than a campervan rental website
