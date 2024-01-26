@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
-import imageUrl from "/assets/images/avatar-icon.png"
 import Menu from "../pages/Menu"
+import MenuDesktop from "../pages/MenuDesktop"
 
 export default function Header() {
   const activeStyles = {
@@ -10,17 +10,20 @@ export default function Header() {
     color: "#161616",
   }
 
-  function fakeLogOut() {
-    localStorage.removeItem("loggedin")
-  }
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth)
+
+  React.useEffect(() => {
+    window.addEventListener("resize", function () {
+      setWindowWidth(window.innerWidth)
+    })
+  }, [])
 
   return (
     <header>
       <Link className="site-logo" to="/">
         #VanLife
       </Link>
-
-      <Menu />
+      {windowWidth > 601 ? <MenuDesktop /> : <Menu />}
     </header>
   )
 }

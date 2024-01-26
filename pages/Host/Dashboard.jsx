@@ -34,10 +34,6 @@ export default function Dashboard() {
     )
   }
 
-  // if (loading) {
-  //     return <h1>Loading...</h1>
-  // }
-
   if (error) {
     return <h1>Error: {error.message}</h1>
   }
@@ -74,9 +70,6 @@ export default function Dashboard() {
         ) : (
           <>{renderVanElements(vans)}</>
         )}
-        {/*<React.Suspense fallback={<h3>Loading...</h3>}>
-                    <Await resolve={loaderData.vans}>{renderVanElements}</Await>
-                </React.Suspense>*/}
       </section>
     </>
   )

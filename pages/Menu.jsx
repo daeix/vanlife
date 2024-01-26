@@ -76,6 +76,8 @@ export default function Menu() {
       </div>
     )
   } else {
-    return <BsList onClick={openMenu} className="menu-icon" />
+    return (
+      <BsList aria-label="Open Menu" onClick={openMenu} className="menu-icon" />
+    )
   }
 }
